@@ -48,7 +48,7 @@ Stay Wise features user authentication, cabin browsing, reservation management, 
 
 ## 💻 Live Demo
 
-[🌐 StayWise](https://staywisejo.netlify.app/)
+[🌐 StayWise](https://stay-wise-website.vercel.app/)
 
 ---
 
@@ -56,4 +56,4 @@ Stay Wise features user authentication, cabin browsing, reservation management, 
 
 ### Dashboard
 
-![Dashboard](./src/features/Dashboard.png)
+![Screenshot](./app/Screenshot.png)
