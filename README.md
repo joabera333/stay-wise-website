@@ -56,4 +56,4 @@ Stay Wise features user authentication, cabin browsing, reservation management, 
 
 ### Dashboard
 
-![Screenshot](./app/Screenshot.png)
+![Screenshot](./public/Screenshot.png)
