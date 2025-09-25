@@ -1,0 +1,101 @@
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .spinner {
+    margin: 3.2rem auto 1.6rem;
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid theme("colors.primary.900");
+    border-right-color: theme("colors.primary.200");
+    animation: rotate 1s infinite linear;
+  }
+
+  .spinner-mini {
+    margin: 0;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid theme("colors.primary.200");
+    border-right-color: transparent;
+    animation: rotate 1s infinite linear;
+  }
+
+  @keyframes rotate {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+}
+
+/* For data picker */
+/*
+.rdp {
+  --rdp-cell-size: 32px !important;
+  --rdp-accent-color: theme("colors.accent.500") !important;
+  --rdp-background-color: theme("colors.accent.600") !important;
+  margin: 0 !important;
+}
+
+/*
+
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.spinner {
+		margin: 3.2rem auto 1.6rem;
+		width: 60px;
+		aspect-ratio: 1;
+		border-radius: 50%;
+		border: 8px solid #1e293b; /* primary dark color */
+		border-right-color: #fbbf24; /* gold accent */
+		animation: rotate 1s infinite linear;
+	}
+
+	.spinner-mini {
+		margin: 0;
+		width: 20px;
+		aspect-ratio: 1;
+		border-radius: 50%;
+		border: 2px solid #fbbf24; /* gold accent */
+		border-right-color: transparent;
+		animation: rotate 1s infinite linear;
+	}
+
+	@keyframes rotate {
+		to {
+			transform: rotate(1turn);
+		}
+	}
+}
+
+/* For data picker */
+
+.rdp {
+	--rdp-cell-size: 32px !important;
+	--rdp-accent-color: #fbbf24 !important; /* gold accent */
+	--rdp-background-color: #334155 !important; /* slate card background */
+	margin: 0 !important;
+}
+
+/* Optional global text & background adjustments */
+body {
+	background-color: #1e293b; /* dark slate background */
+	color: #f1f5f9; /* main text light gray */
+}
+
+a,
+.btn-accent {
+	color: #fbbf24; /* gold accent for links/buttons */
+}
+
+.card {
+	background-color: #334155; /* card backgrounds */
+	color: #f1f5f9; /* card text */
+}
